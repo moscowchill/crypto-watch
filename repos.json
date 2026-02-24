@@ -1,0 +1,52 @@
+{
+  "repos": [
+    {
+      "name": "Chainlink",
+      "owner": "smartcontractkit",
+      "repo": "chainlink",
+      "branch": "develop"
+    },
+    {
+      "name": "Tron",
+      "owner": "tronprotocol",
+      "repo": "java-tron",
+      "branch": "master"
+    },
+    {
+      "name": "Stellar",
+      "owner": "stellar",
+      "repo": "stellar-core",
+      "branch": "master"
+    },
+    {
+      "name": "Polygon",
+      "owner": "0xPolygon",
+      "repo": "bor",
+      "branch": "develop"
+    },
+    {
+      "name": "Chia",
+      "owner": "Chia-Network",
+      "repo": "chia-blockchain",
+      "branch": "main"
+    },
+    {
+      "name": "RocketPool",
+      "owner": "rocket-pool",
+      "repo": "rocketpool",
+      "branch": "master"
+    },
+    {
+      "name": "Jito",
+      "owner": "jito-foundation",
+      "repo": "jito-solana",
+      "branch": "master"
+    },
+    {
+      "name": "Firedancer",
+      "owner": "firedancer-io",
+      "repo": "firedancer",
+      "branch": "main"
+    }
+  ]
+}

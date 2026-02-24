@@ -1,0 +1,10 @@
+{
+  "smartcontractkit/chainlink": "949cf5d66bc608b802a37def57da6c474bad32e6",
+  "tronprotocol/java-tron": "87baadabca951981c1188abcf548de9dfafb36a3",
+  "stellar/stellar-core": "40325749fa1ff19976a4cbabf30bb6ee3daff03b",
+  "Chia-Network/chia-blockchain": "3a49905a2d14ac4880cc869bde52a1ce9723e21d",
+  "rocket-pool/rocketpool": "77a2e2e2ad294254efca31d5bf2bc3368f726e0b",
+  "jito-foundation/jito-solana": "0ff416be81fb9ce171a9f36dc1bd8f9178e53e9a",
+  "firedancer-io/firedancer": "c71492b36dde344cfad8b0a370a4faf3ea4de3f8",
+  "0xPolygon/bor": "8782f6eb15364a1e0737438f74eb30619fafd8bf"
+}
