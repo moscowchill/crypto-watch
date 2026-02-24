@@ -57,9 +57,11 @@ echo "$STATE" > "$STATE_FILE"
 
 # Notify if there are updates
 if [ -n "$UPDATES" ]; then
-    MESSAGE="📦 **Crypto Watch - New Commits Detected**\n$UPDATES"
+    MESSAGE="📦 **Crypto Watch - New Commits Detected**"$'\n'"$UPDATES"
     echo -e "$MESSAGE"
-    clawdbot system event --text "$(echo -e "$MESSAGE")" --mode now
+    # Send directly to Discord channel
+    clawdbot message send --channel discord --to "channel:1465329866357608707" --message "$MESSAGE" 2>/dev/null || \
+    clawdbot system event --text "$MESSAGE" --mode now
 else
     echo "No new commits detected."
 fi
